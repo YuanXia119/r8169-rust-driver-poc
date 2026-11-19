@@ -1,0 +1,9 @@
+[package]
+name = "r8169_rust_poc"
+version = "0.1.0"
+edition = "2021"
+description = "Out-of-tree Rust abstraction PoC for Realtek r8169 PCIe Ethernet controller"
+license = "GPL-2.0"
+
+[lib]
+crate-type = ["staticlib"]
